@@ -3,7 +3,11 @@
 */
 const num = 1000;
 const num1 = 100;
-console.log(num > num1);
+if (num > num1) {
+  console.log(num);
+} else {
+  console.log(num1);
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
