@@ -38,24 +38,25 @@ console.log(Number4 + Number12 === 8 || Number4 - Number12 === 8);
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
-
+const costoSpedizione = 10;
 const totalShoppingCart = 53;
 if (totalShoppingCart > 50) {
-  console.log("spedizione gratis!");
+  console.log(totalShoppingCart);
 } else {
-  console.log("Costo spedizione 10 euro");
+  console.log(costoSpedizione + totalShoppingCart);
 }
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-
+const costospedizione1 = 10;
 const totalShoppingCart1 = 53;
+const newPriceBlackFriday = totalShoppingCart1 - totalShoppingCart1 / 5;
 if ((totalShoppingCart1 / 5) * 4 > 50) {
-  console.log("spedizione gratis!");
+  console.log(totalShoppingCart1);
 } else {
-  console.log("Costo spedizione 10 euro");
+  console.log(newPriceBlackFriday + costospedizione1);
 }
 
 /* ESERCIZIO 7
