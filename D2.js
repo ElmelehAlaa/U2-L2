@@ -51,10 +51,10 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 const costospedizione1 = 10;
-const totalShoppingCart1 = 53;
+const totalShoppingCart1 = 120;
 const newPriceBlackFriday = totalShoppingCart1 - totalShoppingCart1 / 5;
 if ((totalShoppingCart1 / 5) * 4 > 50) {
-  console.log(totalShoppingCart1);
+  console.log(newPriceBlackFriday);
 } else {
   console.log(newPriceBlackFriday + costospedizione1);
 }
